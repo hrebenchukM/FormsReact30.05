@@ -171,31 +171,31 @@ function onGenderChange(e) {
           <p>
                 <label>User ID [5 to 7 characters]:</label>
                 <input type="text" value={id}  onChange={onIdChange} className={idvalid} />
-                { idValid ? <span className="valid-mark">&#x2714;</span> : <span className="invalid-mark">&#x2718;</span> }
+                { idValid ? <span className="valid-icon">&#x2714;</span> : <span className="invalid-icon">&#x2718;</span> }
             </p>
             <p>
                 <label>Password [7 to 12 characters]:</label>
                 <input type="text" value={password}  onChange={onPasswordChange} className={passwordvalid} />
-                { passwordValid ? <span className="valid-mark">&#x2714;</span> : <span className="invalid-mark">&#x2718;</span> }
+                { passwordValid ? <span className="valid-icon">&#x2714;</span> : <span className="invalid-icon">&#x2718;</span> }
 
             </p>
       <p>
         <label>Name[Alphabates characters]:</label>
         <input type="text" value={name} onChange={onNameChange} className={namevalid}/>
-        { nameValid ? <span className="valid-mark">&#x2714;</span> : <span className="invalid-mark">&#x2718;</span> }
+        { nameValid ? <span className="valid-icon">&#x2714;</span> : <span className="invalid-icon">&#x2718;</span> }
 
       </p>
       <p>
                 <label>Adress[Alphanumeric characters]:</label>
                 <input type="text" value={adress} onChange={onAdressChange}  className={adressvalid} />
-                { adressValid ? <span className="valid-mark">&#x2714;</span> : <span className="invalid-mark">&#x2718;</span> }
+                { adressValid ? <span className="valid-icon">&#x2714;</span> : <span className="invalid-icon">&#x2718;</span> }
 
             </p>
           
       <p>
         <label>Age:</label>
         <input  type="number"  value={age}  onChange={onAgeChange} className={agevalid} />
-        { ageValid ? <span className="valid-mark">&#x2714;</span> : <span className="invalid-mark">&#x2718;</span> }
+        { ageValid ? <span className="valid-icon">&#x2714;</span> : <span className="invalid-icon">&#x2718;</span> }
 
       </p>
 
@@ -213,14 +213,14 @@ function onGenderChange(e) {
             <p>
                 <label>ZIP Code[Alphanumeric characters]:</label>
                 <input type="text" value={zip} onChange={onZipChange}  className={zipvalid} />
-                { zipValid ? <span className="valid-mark" >&#x2714;</span> : <span  className="invalid-mark">&#x2718;</span> }
+                { zipValid ? <span className="valid-icon" >&#x2714;</span> : <span  className="invalid-icon">&#x2718;</span> }
 
             </p>
 
             <p>
                 <label>Email[Valid email]:</label>
                 <input type="text" value={email} onChange={onEmailChange}  className={emailvalid} />
-                { emailValid ? <span className="valid-mark">&#x2714;</span> : <span className="invalid-mark">&#x2718;</span> }
+                { emailValid ? <span className="valid-icon">&#x2714;</span> : <span className="invalid-icon">&#x2718;</span> }
             </p>
 
            

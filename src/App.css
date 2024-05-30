@@ -17,12 +17,12 @@ form
     color: red;
 }
 
-.valid-mark {
+.valid-icon {
     color: green; 
     margin-left: 5px;
   }
   
-  .invalid-mark {
+  .invalid-icon {
     color: red;
     margin-left: 5px;
   }
